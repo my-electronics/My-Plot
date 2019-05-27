@@ -1,13 +1,12 @@
 # MyPlot
 
 MyPlot is a simple Qt widget for plotting. It has no further dependencies and can be easily integrate in Qt projects. 
-MyPlot can display realtime data inside an Qt application as well as producing high quality plots for export.
 
-Getting MyPlot to work with your Qt application is very easy:
+To get MyPlot to work with your Qt application:
 
-- Download the latest version of MyPlot and copy the myplot.h and myplot.cpp file to you application directory.
-- In Qt Creator right click on the your project and choose *Add Existing Files...*
-- In the dialog, select the myplot.h and myplot.cpp file, to add them to your project.
-- Place a QWidget on your form in the desired location. Right click on it and hit Promote to...
+- Download the latest version of MyPlot and copy the myplot.cpp and myplot.h file to your application directory
+- In Qt Creator right click on the root entry of your project in the left sidebar and choose *Add Existing Files...*
+- In the dialog, select the myplot.cpp and myplot.h file, to add them to your project
+- Next, place a QWidget on your form, right click on it and press *Promote to...*
 - In the dialog, enter "MyPlot" in the *Promoted Class Name* input field. The input next to *Header File* should be filled automatically with the correct myplot.h. Press "Add" to add Mylot to the promoted classes list and finally press *Promote* to turn the QWidget on your form into a MyPlot.
 - You won't see any immediate visual changes in Qt Creater, but while running the application, you will see an empty plot with axes.
