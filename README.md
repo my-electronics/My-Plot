@@ -5,7 +5,7 @@
 To get "My Plot" to work with your Qt application:
 
 - Download the latest version of "My Plot" and copy the myplot.cpp and myplot.h file to your application directory
-- In Qt Creator right click on the root entry of your project in the left sidebar and choose *Add Existing Files...* <br>
+- In Qt Creator right click on the root entry of your project in the left sidebar and choose *Add Existing Files...* <br><br>
 ![Screenshoot-01](Screenshots/My-Plot-01.jpg)
 - In the dialog, select the myplot.cpp and myplot.h file, to add them to your project <br>
 ![Screenshoot-02](Screenshots/My-Plot-02.jpg)
