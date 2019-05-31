@@ -6,7 +6,7 @@ To get "My Plot" to work with your Qt application:
 
 - Download the latest version of "My Plot" and copy the myplot.cpp and myplot.h file to your application directory
 - In Qt Creator right click on the root entry of your project in the left sidebar and choose *Add Existing Files...*
-![Screenshoot-01](Screenshoots/My-Plot-01.jpg)
+![Screenshoot-01](Screenshots/My-Plot-01.jpg)
 - In the dialog, select the myplot.cpp and myplot.h file, to add them to your project
 - Next, place a QWidget on your form, right click on it and click *Promote to...*
 - In the dialog, enter *MyPlot* in the *Promoted Class Name* input field. The input next to *Header File* should be filled automatically with myplot.h. Click "Add" to add Mylot to the promoted classes list and finally click *Promote* to turn the QWidget on your form into a *MyPlot*
