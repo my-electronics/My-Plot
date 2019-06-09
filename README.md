@@ -3,7 +3,7 @@
 "My Plot" is a simple Qt widget for plotting. It has no dependencies  on external libaries and can be easily integrate in Qt projects. 
 
 <p align="center">
-  <img src="Screenshots/My-Plot-00.jpg">
+  <img src="Screenshots/My-Plot-00.png">
 </p>
 
 ## Contents
