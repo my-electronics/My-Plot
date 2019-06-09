@@ -1,11 +1,13 @@
 # My Plot
 
+"My Plot" is a simple Qt widget for plotting. It has no dependencies  on external libaries and can be easily integrate in Qt projects. 
+
 ## Contents
 
-[Setting Up][Setting-Up]
-[Plotting][Plotting]
+- [Setting Up](#setting-up)
+- [Plotting](#plotting)
 
-"My Plot" is a simple Qt widget for plotting. It has no dependencies  on external libaries and can be easily integrate in Qt projects. 
+## Setting Up
 
 To get "My Plot" to work with your Qt application:
 
@@ -28,7 +30,7 @@ To get "My Plot" to work with your Qt application:
 - You won't see any immediate visual changes in Qt Creater, but while running the application, you will see an empty plot with axes
 
 
-[arbitrary case-insensitive reference text]
+## Plotting
 
 ```c++
 s = "Python syntax highlighting"
