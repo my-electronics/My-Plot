@@ -32,20 +32,20 @@ To get "My Plot" to work with your Qt application:
 <p align="center"><img src="Screenshots/My-Plot-04.jpg"></p>
 
 - You won't see any immediate visual changes in Qt Creater, but while running the application, you will see an empty plot with axes
-- We recommend to rename the widgets *objectName*, e.g., plot.
+- We recommend to rename the widgets *objectName* to, e.g., `plot`. You might also change the *centralWidget* layout to vertical or horizontal.
 
 ## Plotting
 
 If you have promoted a widget in QtCreator, you'll likely access the respective widget via `ui->plot`, 
-or whatever name you gave the widget, instead.
+or whatever name you gave the widget.
 
-To make any kind of changes to the plot appear on screen, call ui->plot->update(). 
-Note that a replot will automatically happen when the widget is resized and when the built-in user interactions are triggered. Such user interactions are for example dragging the axis ranges with the mouse and zooming with the mouse wheel.
+To aplly any kind of changes to the plot appear on screen, call `ui->plot->replot()`. 
+Note that a replot will automatically happen when the widget is resized. 
 
 
 ```c++
 
-// generate data
+// Generate some data
 QVector<double> X, Y;
 for (int i = 0; i < 25; i++)
 {
@@ -53,11 +53,11 @@ for (int i = 0; i < 25; i++)
 	Y.append(i*i);
 }
 
-// plot data
+// Plot the data
 ui->plot->plotXY(X, Y);
 
-// give axes some labels
-ui->plot->setXLabel("X Axis", 12);
-ui->plot->setYLabel("Y Axis", 12);
+// Give axes some labels
+ui->plot->setXLabel("X Axis");
+ui->plot->setYLabel("Y Axis");
 
 
