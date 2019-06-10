@@ -4,7 +4,7 @@ MyPlot is a simple and lightweight Qt widget for plotting.
 It has no further dependencies on external libaries and can be easily integrated in Qt projects. 
 
 <p align="center">
-	<img src="Screenshots/My-Plot-00.png" width="600">
+	<img src="Screenshots/My-Plot-00.png" width="540">
 </p>
 
 ## Contents
@@ -69,9 +69,9 @@ ui->plot->replot();
 ```
 
 <p align="center">
-	<img src="Screenshots/My-Plot-05.png" width="600">
+	<img src="Screenshots/My-Plot-05.png" width="540">
 </p>
 
-A more elaborated example is available with the MyPlot.pro
+A more elaborated example is available with the Qt project within this repository.
 
 
