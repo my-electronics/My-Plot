@@ -15,24 +15,24 @@
 
 To get "My Plot" to work with your Qt application:
 
-- Download the latest version of "My Plot" and copy the myplot.cpp and myplot.h file to your application directory
-- In Qt Creator right click on the root entry of your project in the left sidebar and choose *Add Existing Files...*:
+Download the latest version of "My Plot" and copy the myplot.cpp and myplot.h file to your application directory. 
+In Qt Creator right click on the root entry of your project in the left sidebar and choose *Add Existing Files...*:
 
 <p align="center">
-  <img src="Screenshots/My-Plot-01.jpg">
+  <img src="Screenshots/My-Plot-01.png">
 </p>
 
-- In the dialog, select the myplot.cpp and myplot.h file, to add them to your project. Your project structure and .pro file should look something like this:
-<p align="center"><img src="Screenshots/My-Plot-02.jpg"></p>
+In the dialog, select the myplot.cpp and myplot.h file, to add them to your project. Your project structure and .pro file should look something like this:
+<p align="center"><img src="Screenshots/My-Plot-02.png"></p>
 
-- Next, place a QWidget on your form, right click on it and click *Promote to...* <br>
-<p align="center"><img src="Screenshots/My-Plot-03.jpg"></p>
+Next, place a QWidget on your form, right click on it and click *Promote to...* <br>
+<p align="center"><img src="Screenshots/My-Plot-03.png"></p>
 
-- In the dialog, enter *MyPlot* in the *Promoted Class Name* input field. The input next to *Header File* should be filled automatically with myplot.h. Click "Add" to add Mylot to the promoted classes list and finally click *Promote* to turn the QWidget on your form into a *MyPlot*.
-<p align="center"><img src="Screenshots/My-Plot-04.jpg"></p>
+In the dialog, enter *MyPlot* in the *Promoted Class Name* input field. The input next to *Header File* should be filled automatically with myplot.h, then click "Add" to add Mylot to the promoted classes list and finally click *Promote* to turn the QWidget on your form into a *MyPlot*.
+<p align="center"><img src="Screenshots/My-Plot-04.png"></p>
 
-- You won't see any immediate visual changes in Qt Creater, but while running the application, you will see an empty plot with axes
-- We recommend to rename the widgets *objectName* to, e.g., `plot`. You might also change the *centralWidget* layout to vertical or horizontal.
+You won't see any immediate visual changes in Qt Creater, but while running the application, you will see an empty plot with axes.
+We recommend to rename the widgets *objectName* to, e.g., `plot`. You might also change the *centralWidget* layout to vertical or horizontal.
 
 ## Plotting
 
@@ -56,7 +56,7 @@ for (int i = -10; i <= 10; i++)
 // Plot data
 ui->plot->plotXY(X, Y);
 
-// Label axis
+// Label axes
 ui->plot->setXLabel("X");
 ui->plot->setYLabel("Y");
 
@@ -64,5 +64,7 @@ ui->plot->replot();
 ```
 
 <p align="center"><img src="Screenshots/My-Plot-05.png"></p>
+
+A more elaborated example can be found in the [Setting Up](#setting-up)
 
 
