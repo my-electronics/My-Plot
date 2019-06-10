@@ -63,7 +63,7 @@ ui->plot->setYLabel("Y");
 ui->plot->replot();
 ```
 
-<p align="center"><img src="Screenshots/My-Plot-05.png"></p>
+<p align="center"><img src="Screenshots/My-Plot-05.png" width="480"></p>
 
 A more elaborated example can be found in the [Setting Up](#setting-up)
 
