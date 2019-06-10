@@ -4,7 +4,7 @@ MyPlot is a simple and lightweight Qt widget for plotting.
 It has no further dependencies on external libaries and can be easily integrated in Qt projects. 
 
 <p align="center">
-	<img src="Screenshots/My-Plot-00.png" width="540">
+	<img src="Screenshots/My-Plot-00.png" width="560">
 </p>
 
 ## Contents
@@ -24,7 +24,7 @@ In Qt Creator right click on the root entry of your project in the left sidebar 
 </p>
 
 In the dialog, select the myplot.cpp and myplot.h file, to add them to your project. Your project structure and .pro file should look something like this:
-<p align="center"><img src="Screenshots/My-Plot-02.png" width="680"></p>
+<p align="center"><img src="Screenshots/My-Plot-02.png"></p>
 
 Next, place a QWidget on your form, right click on it and click *Promote to...* <br>
 <p align="center">
@@ -69,7 +69,7 @@ ui->plot->replot();
 ```
 
 <p align="center">
-	<img src="Screenshots/My-Plot-05.png" width="540">
+	<img src="Screenshots/My-Plot-05.png" width="560">
 </p>
 
 A more elaborated example is available with the Qt project within this repository.
