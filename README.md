@@ -50,7 +50,7 @@ Note that replot is automatically called when the widget is resized.
 
 ```c++
 
-// generate some data
+// Generate some data
 QVector<double> X, Y;
 for (int i = -10; i <= 10; i++)
 {
@@ -58,19 +58,19 @@ for (int i = -10; i <= 10; i++)
 	Y.append(0.25*i*i-5);
 }
 
-// plot the data
+// Plot the data
 ui->plot->plotXY(X, Y);
-// give axes some labels
+// Set axes labels
 ui->plot->setXLabel("X");
 ui->plot->setYLabel("Y");
-// set axes ranges
+// Set axes ranges
 ui->plot->setAxes(-10, 10, -10, 10);
 
 ui->plot->replot();
 ```
 
 <p align="center">
-	<img src="Screenshots/My-Plot-05.png" width="560">
+	<img src="Images/My-Plot-05.png" width="560">
 </p>
 
 A more elaborated example is available within this repository.
