@@ -72,6 +72,6 @@ ui->plot->replot();
 	<img src="Screenshots/My-Plot-05.png" width="560">
 </p>
 
-A more elaborated example is available with the Qt project within this repository.
+A more elaborated example is available within this repository.
 
 
