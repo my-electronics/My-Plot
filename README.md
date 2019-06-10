@@ -32,11 +32,11 @@ To get "My Plot" to work with your Qt application:
 <p align="center"><img src="Screenshots/My-Plot-04.jpg"></p>
 
 - You won't see any immediate visual changes in Qt Creater, but while running the application, you will see an empty plot with axes
-
+- We recommend to rename the widgets *objectName*, e.g., plot.
 
 ## Plotting
 
-If you have promoted a widget in QtCreator, you'll likely access the respective widget via ui->plot, 
+If you have promoted a widget in QtCreator, you'll likely access the respective widget via `ui->plot`, 
 or whatever name you gave the widget, instead.
 
 To make any kind of changes to the plot appear on screen, call ui->plot->update(). 
