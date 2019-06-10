@@ -39,13 +39,13 @@ To get "My Plot" to work with your Qt application:
 If you have promoted a widget in QtCreator, you'll likely access the respective widget via `ui->plot`, 
 or whatever name you gave the widget.
 
-To aplly any kind of changes to the plot appear on screen, call `ui->plot->replot()`. 
+To apply any kind of changes to the plot appear on screen, call `ui->plot->replot()`. 
 Note that a replot will automatically happen when the widget is resized. 
 
 
 ```c++
 
-// Generate some data
+// Generate data
 QVector<double> X, Y;
 for (int i = 0; i < 25; i++)
 {
@@ -53,11 +53,13 @@ for (int i = 0; i < 25; i++)
 	Y.append(i*i);
 }
 
-// Plot the data
+// Plot data
 ui->plot->plotXY(X, Y);
 
-// Give axes some labels
+// Label axes 
 ui->plot->setXLabel("X Axis");
 ui->plot->setYLabel("Y Axis");
+
+ui->plot->replot();
 
 
