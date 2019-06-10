@@ -14,9 +14,8 @@ It has no further dependencies on external libaries and can be easily integrated
 
 ## Setting Up
 
-To get MyPlot to work with your Qt application:
-
-Download the latest version of MyPlot and copy the myplot.cpp and myplot.h file to your application directory. 
+To get MyPlot to work with your Qt application download the latest version of MyPlot and copy the myplot.cpp and myplot.h 
+file to your application directory. 
 In Qt Creator right click on the root entry of your project in the left sidebar and choose *Add Existing Files...*:
 
 <p align="center">
