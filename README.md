@@ -24,7 +24,7 @@ In Qt Creator right click on the root entry of your project in the left sidebar 
 </p>
 
 In the dialog, select the myplot.cpp and myplot.h file, to add them to your project. Your project structure and .pro file should look something like this:
-<p align="center"><img src="Screenshots/My-Plot-02.png"></p>
+<p align="center"><img src="Screenshots/My-Plot-02.png" width="680"></p>
 
 Next, place a QWidget on your form, right click on it and click *Promote to...* <br>
 <p align="center">
