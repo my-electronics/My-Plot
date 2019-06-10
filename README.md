@@ -1,6 +1,6 @@
-# My Plot
+# MyPlot
 
-"My Plot" is a simple Qt widget for plotting. It has no dependencies  on external libaries and can be easily integrate in Qt projects. 
+"MyPlot" is a simple and lightweigth Qt widget for plotting. It has no dependencies  on external libaries and can be easily integrate in Qt projects. 
 
 <p align="center">
   <img src="Screenshots/My-Plot-00.png">
