@@ -1,6 +1,7 @@
 # MyPlot
 
-"MyPlot" is a simple and lightweigth Qt widget for plotting. It has no dependencies  on external libaries and can be easily integrate in Qt projects. 
+MyPlot is a simple and lightweight Qt widget for plotting. 
+It has no further dependencies on external libaries and can be easily integrated in Qt projects. 
 
 <p align="center">
 	<img src="Screenshots/My-Plot-00.png" width="600">
@@ -13,9 +14,9 @@
 
 ## Setting Up
 
-To get "My Plot" to work with your Qt application:
+To get MyPlot to work with your Qt application:
 
-Download the latest version of "My Plot" and copy the myplot.cpp and myplot.h file to your application directory. 
+Download the latest version of MyPlot and copy the myplot.cpp and myplot.h file to your application directory. 
 In Qt Creator right click on the root entry of your project in the left sidebar and choose *Add Existing Files...*:
 
 <p align="center">
@@ -71,6 +72,6 @@ ui->plot->replot();
 	<img src="Screenshots/My-Plot-05.png" width="600">
 </p>
 
-A more elaborated example can be found in the [Setting Up](#setting-up)
+A more elaborated example is available with the MyPlot.pro
 
 
