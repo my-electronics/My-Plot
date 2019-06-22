@@ -72,6 +72,6 @@ ui->plot->replot();
 	<img src="Images/My-Plot-05.png" width="560">
 </p>
 
-A more elaborated example is available within this repository.
+A detailed example is available with the My Plot project in this repository.
 
 
