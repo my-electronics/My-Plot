@@ -25,7 +25,7 @@ In Qt Creator right click on the root entry of your project in the left sidebar 
 In the dialog, select the myplot.cpp and myplot.h file, to add them to your project. Your project structure and .pro file should look something like this:
 <p align="center"><img src="Images/My-Plot-02.png"></p>
 
-Next, place a QWidget on your form, right click on it and click *Promote to...* <br>
+Next, place a *Widget* on your form, right click on it and click *Promote to...* <br>
 <p align="center">
 	<img src="Images/My-Plot-03.png">
 </p>
@@ -36,7 +36,7 @@ In the dialog, enter *MyPlot* in the *Promoted Class Name* input field. The inpu
 </p>
 
 You won't see any immediate visual changes in Qt Creater, but while running the application, you will see an empty plot with axes.
-We recommend to rename the widgets *objectName* to, e.g., `plot`. You might also change the *centralWidget* layout to vertical or horizontal.
+We recommend to rename the widgets *objectName* to, e.g., `plot`. You might change the *centralWidget* layout to vertical or horizontal for automatic resizing of the plot widget.
 
 ## Plotting
 
